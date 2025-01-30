@@ -44,7 +44,7 @@ prepare_JUWELS:
     - cd mpi4py-fft
     - git checkout cupy_implementation
     - which python
-    - FFTW_LIBRARY_DIR="/p/software/juwels/stages/2025/software/FFTW/3.3.10-GCC-13.3.0/lib64" python -m pip install --no-deps --force-reinstall -e .
+    - FFTW_LIBRARY_DIR="/p/software/juwels/stages/2025/software/FFTW/3.3.10-GCC-13.3.0/lib64" python -m pip install --no-deps -e .
     - cd ../
 
 
